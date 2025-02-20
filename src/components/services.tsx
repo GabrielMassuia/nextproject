@@ -51,7 +51,7 @@ export function Services() {
         <section className="bg-white py-16">
             <div className="container mx-auto px-4">
                     <h2 className="text-4xl font-bold mb-12">
-                        Serviços
+                        SERVIÇOS
                     </h2>
                 <div className="relative">
                     <div className="overflow-hidden" ref={emblaRef}>
@@ -63,7 +63,7 @@ export function Services() {
                                             <div className='flex gap-3'>
                                                 <span className='text-3xl'>{item.icon}</span>
                                                 <div>
-                                                    <h3 className='font-bold text-xl my-1'>{item.title}</h3>
+                                                    <h3 className='font-bold text-xl my-1 select-none'>{item.title}</h3>
                                                     <p className='text-gray-400 text-sm select-none'>
                                                         {item.description}
                                                     </p>
@@ -71,7 +71,6 @@ export function Services() {
                                             </div>  
                                         </div>
                                     </article>
-
                                 </div>
                             ))}
                         </div>
